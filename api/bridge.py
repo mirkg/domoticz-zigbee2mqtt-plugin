@@ -2,6 +2,9 @@ import json
 import bridge
 from api.command import APICommand
 
+class GetBridgeHealth(APICommand):
+    def execute(self, params):
+        self.send_response(bridge.bridge_health)
 
 class GetBridgeStatus(APICommand):
     def execute(self, params):

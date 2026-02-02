@@ -232,6 +232,7 @@ class BasePlugin:
             copy2(source_path + '/plugin_config.js', dst_plugin_path)
             copy2(source_path + '/zigbee_devices.js', dst_plugin_path)
             copy2(source_path + '/zigbee_groups.js', dst_plugin_path)
+            copy2(source_path + '/zigbee_health.js', dst_plugin_path)
             copy2(source_path + '/libs/leaflet.js', dst_plugin_path)
             copy2(source_path + '/libs/leaflet.css', dst_plugin_path)
             copy2(source_path + '/libs/viz.js', dst_plugin_path)

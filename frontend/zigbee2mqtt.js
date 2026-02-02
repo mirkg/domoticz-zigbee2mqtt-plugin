@@ -4,6 +4,7 @@ define([
     '../templates/zigbee2mqtt/viz.full.render',
     '../templates/zigbee2mqtt/leaflet',
     '../templates/zigbee2mqtt/plugin_config',
+    '../templates/zigbee2mqtt/zigbee_health',
     '../templates/zigbee2mqtt/zigbee_devices',
     '../templates/zigbee2mqtt/zigbee_groups',
     'app/devices/Devices.js'
